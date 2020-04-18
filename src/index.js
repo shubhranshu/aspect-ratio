@@ -1,11 +1,17 @@
-import { ChalkTest } from './ChalkTest';
-import { InquirerCli } from './cli';
+import ratios from './ratios.json';
 
-console.log('############## Running Chalk test #############');
-var chalkTest = new ChalkTest();
-chalkTest.test();
-console.log('################ Chalk test Done ##############');
+class AspectRatio {
+  constructor(x = 0, y = 0) {
+    if (x !== 0 && y !== 0) {
+      ratios.forEach((ratio) => {
+        let decimal = (1.0 * x) / y;
+        const calcRatio = Math.round(decimal * 100)/100;
+        if(calcRatio == ratio.numeric){
+          this[`is${ratio.friendly}`] = true;
+        }
+      });
+    }
+  }
+}
 
-console.log('################ CLI Demo Begins ##############');
-var cli = new InquirerCli();
-cli.start();
+export { AspectRatio };
