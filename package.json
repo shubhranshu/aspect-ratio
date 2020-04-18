@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-starter-template",
+  "version": "1.0.1",
+  "description": "Template repository to get strated with NodeJs CLI development",
+  "main": "lib/index.js",
+  "repository": "git@github.com:shubhranshu/nodeJs-starter-template.git",
+  "author": "Shubhranshu <1248830+shubhranshu@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx babel src --out-dir dist",
+    "test": "npx ava",
+    "watch-test": "npx ava --watch",
+    "cli-run": "npx babel-node src/index.js",
+    "watch-run": "npx nodemon --exec npx babel-node src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "inquirer": "^7.1.0",
+    "progress": "^2.0.3"
+  },
+  "devDependencies": {
+    "@ava/babel": "^1.0.1",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "ava": "^3.6.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.3"
+  },
+  "ava": {
+    "babel": true
+  }
+}
