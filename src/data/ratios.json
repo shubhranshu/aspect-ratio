@@ -1,0 +1,204 @@
+[
+  {
+    "name": "19by16",
+    "ratio": "19:16",
+    "alias": "",
+    "numeric": 1.19,
+    "description": "Sometimes referred to as the Movietone ratio, this ratio was used briefly during the transitional period when the film industry was converting to sound, from 1926 to 1932 approx. It is produced by superimposing an optical soundtrack over a full-gate 1.3 aperture in printing, resulting in an almost square image. Films shot in this ratio are often projected or transferred to video incorrectly using a 1.37 mask or squashed to 1.37. Examples of films shot in the Movietone ratio include Sunrise, M, Hallelujah! and The Lighthouse."
+  },
+  {
+    "name": "5by4",
+    "ratio": "5:4",
+    "alias": "",
+    "numeric": 1.25,
+    "description": "Once-popular aspect for larger format computer monitors, especially in the guise of mass-produced 17 and 19 LCD panels or 19 and 21 CRTs, using 1280×1024 (SXGA) or similar resolutions. Notably one of the few popular display aspect ratios narrower than 4:3, and one popularised by business (CAD, DTP) rather than entertainment use, as it is well-suited to full-page layout editing. Historically, 5:4 was also the original aspect ratio of early 405-line television broadcasts, which progressed to a wider 4:3 as the idea of broadcasting cinema films gained traction."
+  },
+  {
+    "name": "4by3",
+    "ratio": "4:3",
+    "alias": "",
+    "numeric": 1.3,
+    "description": "35 mm original silent film ratio, today commonly known in TV and video as 4:3. Also standard ratio for MPEG-2 video compression. This format is still used in many personal video cameras today and has influenced the selection or design of other aspect ratios. It is the standard Super 35mm ratio."
+  },
+  {
+    "name": "1point37by1",
+    "ratio": "1.37:1",
+    "alias": "",
+    "numeric": 1.37,
+    "description": "16 mm and 35 mm standard ratio."
+  },
+  {
+    "name": "11by8",
+    "ratio": "11:8",
+    "alias": "",
+    "numeric": 1.375,
+    "description": "35 mm full-screen sound film image, nearly universal in movies between 1932 and 1953. Officially adopted as the Academy ratio in 1932 by AMPAS. Rarely used in theatrical context nowadays, but occasionally used for other context."
+  },
+  {
+    "name": "1point43by1",
+    "ratio": "1.43:1",
+    "alias": "",
+    "numeric": 1.43,
+    "description": "IMAX format. IMAX productions use 70 mm wide film (the same as used for 70 mm feature films), but the film runs through the camera and projector horizontally. This allows for a physically larger area for each image."
+  },
+  {
+    "name": "3by2",
+    "ratio": "3:2",
+    "alias": "",
+    "numeric": 1.5
+  },
+  {
+    "name": "14by9",
+    "ratio": "14:9",
+    "alias": "",
+    "numeric": 1.5,
+    "description": "Widescreen aspect ratio sometimes used in shooting commercials etc. as a compromise format between 4:3 and 16:9. When converted to a 16:9 frame, there is slight pillarboxing, while conversion to 4:3 creates slight letterboxing. All widescreen content on ABC Family's SD feed until January 2016 were presented in this ratio."
+  },
+  {
+    "name": "16by10",
+    "ratio": "16:10",
+    "alias": "8:5",
+    "numeric": 1.6,
+    "description": "Widescreen computer monitor ratio (for instance 1920×1200 resolution)."
+  },
+  {
+    "name": "5by3",
+    "ratio": "5:3",
+    "alias": "",
+    "numeric": 1.6,
+    "description": "35 mm widescreen ratio, originally invented by Paramount Pictures, now a standard among several European countries. It is also the native Super 16 mm frame ratio. Sometimes this ratio is rounded up to 1.6:1. From the late 1980s to the early 2000s, Walt Disney Feature Animation's CAPS program animated their features in the 1.6:1 ratio (a compromise between the 1.85:1 theatrical ratio and the 1.3:1 ratio used for home video), this format is also used on the Nintendo 3DS's top screen as well."
+  },
+  {
+    "name": "7by4",
+    "ratio": "7:4",
+    "alias": "",
+    "numeric": 1.75,
+    "description": "Early 35 mm widescreen ratio, primarily used by MGM and Warner Bros. between 1953 and 1955, and since abandoned, though Disney has cropped some of its post-1950s full screen films to this ratio for DVD, including The Jungle Book."
+  },
+  {
+    "name": "16by9",
+    "ratio": "16:9",
+    "alias": "42:32",
+    "numeric": 1.7,
+    "description": "Video widescreen standard, used in high-definition television, one of three ratios specified for MPEG-2 video compression. Also used increasingly in personal video cameras. Sometimes this ratio is rounded up to 1.78:1."
+  },
+  {
+    "name": "37by20",
+    "ratio": "37:20",
+    "alias": "",
+    "numeric": 1.85,
+    "description": "35 mm US and UK widescreen standard for theatrical film. Introduced by Universal Pictures in May, 1953. Projects approximately 3 perforations (perfs) of image space per 4 perf frame; films can be shot in 3-perf to save cost of film stock. Also the ratio of Ultra 16 mm."
+  },
+  {
+    "name": "256by135",
+    "ratio": "256:135",
+    "alias": "",
+    "numeric": 1.896,
+    "description": "DCI / SMPTE digital cinema basic resolution container aspect ratio."
+  },
+  {
+    "name": "2by1",
+    "ratio": "2:1",
+    "alias": "",
+    "numeric": 2,
+    "description": "Recently popularized by the Red Digital Cinema Camera Company. Original SuperScope ratio, also used in Univisium. Used as a flat ratio for some American studios in the 1950s and abandoned in the 1960s. Also used in recent mobile phones such as the LG G6, Google Pixel 2 XL, HTC U11+, Xiaomi MIX 2S and Huawei Mate 10 Pro, while the Samsung Galaxy S8, Note 8, and S9 use the similar 18.5:9 ratio."
+  },
+  {
+    "name": "28by13",
+    "ratio": "~28:13",
+    "alias": "",
+    "numeric": 2.165,
+    "description": "iPhone X, Xs, Xs Max, 11, 11 Pro, 11 Pro Max"
+  },
+  {
+    "name": "11by5",
+    "ratio": "11:5",
+    "alias": "",
+    "numeric": 2.2,
+    "description": "70 mm standard. Originally developed for Todd-AO in the 1950s. Specified in MPEG-2 as 2.21:1, but hardly used."
+  },
+  {
+    "name": "47by20",
+    "ratio": "~47:20",
+    "alias": "",
+    "numeric": 2.35,
+    "description": "35 mm anamorphic prior to 1970, used by CinemaScope ('Scope) and early Panavision. The anamorphic standard has subtly changed so that modern anamorphic productions are actually 2.39, but often referred to as 2.35 anyway, due to old convention. (Note that anamorphic refers to the compression of the image on film to maximize an area slightly taller than standard 4-perf Academy aperture, but presents the widest of aspect ratios.) All Indian Bollywood films released after 1972 are shot in this standard for theatrical exhibition."
+  },
+  {
+    "name": "64by27",
+    "ratio": "64:27",
+    "alias": "43:33",
+    "numeric": 2.37,
+    "description": "TVs were produced with this aspect ratio between 2009 and 2012 and marketed as 21:9 cinema displays. But this aspect ratio is still seen on higher end monitors, and are sometimes called UltraWide monitors."
+  },
+  {
+    "name": "43by18",
+    "ratio": "~43:18",
+    "alias": "",
+    "numeric": 2.39,
+    "description": "35 mm anamorphic from 1970 onwards. Aspect ratio of current anamorphic widescreen theatrical viewings, commercial, and some music videos. Often commercially branded as Panavision format or 'Scope'."
+  },
+  {
+    "name": "12by5",
+    "ratio": "12:5",
+    "alias": "",
+    "numeric": 2.4,
+    "description": "Rounded notation of 2.39:1, also as 2.40:1. Blu-ray Disc film releases may use only 800 instead of 803 or 804 lines of the 1920×1080 resolution, resulting in an even 2.4:1 aspect ratio."
+  },
+  {
+    "name": "23by9",
+    "ratio": "~23:9",
+    "alias": "",
+    "numeric": 2.55,
+    "description": "Original aspect ratio of CinemaScope before optical sound was added to the film in 1954. This was also the aspect ratio of CinemaScope 55."
+  },
+  {
+    "name": "13by5",
+    "ratio": "~13:5",
+    "alias": "",
+    "numeric": 2.59,
+    "description": "Cinerama at full height (three specially captured 35 mm images projected side-by-side into one composite widescreen image)."
+  },
+  {
+    "name": "8by3",
+    "ratio": "8:3",
+    "alias": "",
+    "numeric": 2.6,
+    "description": "Full frame output from Super 16 mm negative when an anamorphic lens system has been used. Effectively, an image that is of the ratio 24:9 is squashed onto the native 15:9 aspect ratio of a Super 16 mm negative."
+  },
+  {
+    "name": "11by4",
+    "ratio": "~11:4",
+    "alias": "",
+    "numeric": 2.76,
+    "description": "Ultra Panavision 70/MGM Camera 65 (65 mm with 1.25× anamorphic squeeze). Used only on a handful of films between 1957 and 1966 and three films in the 2010s, for some sequences of How the West Was Won (1962) with a slight crop when converted to three strip Cinerama, and films such as It's a Mad, Mad, Mad, Mad World (1963) and Ben-Hur (1959). Quentin Tarantino used it for The Hateful Eight (2015), Gareth Edwards for Rogue One (2016), Kirill Serebrennikov for Leto (2018)."
+  },
+  {
+    "name": "32by9",
+    "ratio": "32:9",
+    "alias": "",
+    "numeric": 3.5,
+    "description": "In 2017, Samsung and Phillips announced 'Super UltraWide displays', with aspect ratio of 32:9."
+  },
+  {
+    "name": "18by5",
+    "ratio": "18:5",
+    "alias": "",
+    "numeric": 3.6,
+    "description": "In 2016, IMAX announced the release of films in 'Ultra-WideScreen 3.6' format, with an aspect ratio of 36:10. Ultra-WideScreen 3.6 video format didn't spread, as cinemas in an even wider ScreenX 270° format were released."
+  },
+  {
+    "name": "4by1",
+    "ratio": "4:1",
+    "alias": "",
+    "numeric": 4,
+    "description": "Rare use of Polyvision, three 35 mm 1.3:1 images projected side by side. First used in 1927 on Abel Gance's Napoléon."
+  },
+  {
+    "name": "12by1",
+    "ratio": "12:1",
+    "alias": "",
+    "numeric": 12,
+    "description": "Circle-Vision 360° developed by the Walt Disney Company in 1955 for use in Disneyland. Uses nine 4:3 35 mm projectors to show an image that completely surrounds the viewer. Used in subsequent Disney theme parks and other past applications."
+  }
+]
