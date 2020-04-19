@@ -1,13 +1,8 @@
 import test from 'ava';
-import { AspectRatio } from '../src/index';
+import { calculateRatio } from '../src/index';
+import Ratios from '../src/data/ratios.json';
 
-test('can create the object', (t) => {
-  let as = new AspectRatio();
-  t.pass();
-});
-
-test('can construct with parameters', (t) => {
-  let a1 = new AspectRatio(200, 100);
-  t.log("Hello")
-  t.assert(a1.is2by1);
+test('have all properties ', (t) => {
+  var rslt = calculateRatio(2, 1);
+  t.log(rslt);
 });
