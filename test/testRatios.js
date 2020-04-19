@@ -1,7 +1,7 @@
 import test from 'ava';
 import { AspectRatio } from '../src/index';
 
-test('testcan construct', (t) => {
+test('can create the object', (t) => {
   let as = new AspectRatio();
   t.pass();
 });

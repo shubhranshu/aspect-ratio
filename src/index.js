@@ -1,4 +1,4 @@
-import ratios from './ratios.json';
+import ratios from './data/ratios.json';
 
 class AspectRatio {
   constructor(x = 0, y = 0) {
