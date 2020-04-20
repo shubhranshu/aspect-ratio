@@ -1,5 +1,5 @@
 {
-  "name": "aspect-ratio",
+  "name": "@stubbydigits/aspect-ratio",
   "version": "0.0.1",
   "description": "Calculate aspect ratios based on the dimensions x and y",
   "main": "dist/index.js",
