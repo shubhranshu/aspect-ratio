@@ -4,5 +4,6 @@ import Ratios from '../src/data/ratios.json';
 
 test('have all properties ', (t) => {
   var rslt = calculateRatio(2, 1);
-  t.log(rslt);
+  t.assert(rslt.match.name === '2by1');
 });
+
