@@ -6,6 +6,15 @@ const validateXandY = (x, y) => {
   }
 };
 
+/**
+ * Calulates the aspect ratio based on the given numeric values for the dimension X an Y
+ *
+ * @param {*} x : the X (length) dimension
+ * @param {*} y: the Y (height) dimension
+ * @returns An object with two properties
+ * * "match": exact match for the
+ * * "sortedRatios": All supported aspect ratios ordered by the closeness to the current given dimensions.
+ */
 const calculateRatio = (x, y) => {
   x = Math.abs(x >>> 0);
   y = Math.abs(y >>> 0);
