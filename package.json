@@ -1,35 +1,58 @@
 {
-  "name": "nodejs-starter-template",
-  "version": "1.0.1",
-  "description": "Template repository to get strated with NodeJs CLI development",
-  "main": "lib/index.js",
-  "repository": "git@github.com:shubhranshu/nodeJs-starter-template.git",
+  "name": "@stubbydigits/aspect-ratio",
+  "version": "1.0.0",
+  "description": "Calculate aspect ratios based on the dimensions x and y",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shubhranshu/nodeJs-starter-template.git"
+  },
   "author": "Shubhranshu <1248830+shubhranshu@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "build": "npx babel src --out-dir dist",
+    "build-js": "npx babel src --out-dir dist",
+    "copy-files": "npx copyfiles -u 1 src/data/*.json dist/",
+    "build": "npm run copy-files && npm run build-js",
     "test": "npx ava",
     "watch-test": "npx ava --watch",
     "cli-run": "npx babel-node src/index.js",
     "watch-run": "npx nodemon --exec npx babel-node src/index.js"
   },
-  "dependencies": {
-    "chalk": "^4.0.0",
-    "inquirer": "^7.1.0",
-    "progress": "^2.0.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@ava/babel": "^1.0.1",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
     "ava": "^3.6.0",
     "babel-eslint": "^10.1.0",
+    "copyfiles": "^2.2.0",
     "eslint": "^6.8.0",
     "nodemon": "^2.0.3"
   },
   "ava": {
+    "require": [
+      "@babel/register"
+    ],
     "babel": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/shubhranshu/nodeJs-starter-template/issues"
+  },
+  "homepage": "https://github.com/shubhranshu/nodeJs-starter-template#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "aspect-ratio",
+    "node",
+    "display",
+    "fullhd",
+    "hd",
+    "sd",
+    "4k",
+    "16:9"
+  ]
 }

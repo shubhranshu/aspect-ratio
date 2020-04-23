@@ -1,49 +1,42 @@
-# NodeJs CLI Starter template
+# Aspect ratios
 
-Starter template to get going ith NodeJs CLI development without much fuss.
+Calculate aspect rations based on the dimension provided.
 
-| Branch  |                                                                                                           |                                                                                                         |
-| ------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| develop | ![Build](https://github.com/shubhranshu/nodejs-starter-template/workflows/Build/badge.svg?branch=develop) | ![Test](https://github.com/shubhranshu/nodejs-starter-template/workflows/Test/badge.svg?branch=develop) |
-| master  | ![Build](https://github.com/shubhranshu/nodejs-starter-template/workflows/Build/badge.svg?branch=master)  | ![Test](https://github.com/shubhranshu/nodejs-starter-template/workflows/Test/badge.svg?branch=master)  |
+![Build](https://github.com/shubhranshu/aspect-ratio/workflows/Build/badge.svg)
 
-## Configured tooling
+[NPM Package](https://www.npmjs.com/package/@stubbydigits/aspect-ratio)
 
-- [x] ES6 support with babel
-- [x] Test script with Ava
-- [x] Watch scripts for run and tests
-- [x] Babel, Prettier and Eslint configs
-- [x] Github Actions for build and test
+## Usage
 
-## Usage and Configuration
+Library exports a single function `calculateRatio(x, y)` which returns the result object.
+x and y are numbers.
 
-Using this template to initialise repository or copy the files as required. Or simply use it to get some inspiration.
+Use dist folder for non es6 projects. 
 
-### Scripts
+### Result object
 
-- **build** : `Build the project and copy the built files to dist folder`
-- **test** : `Run ava tests`
-- **watch-test** : `Watch code and run tests on code change`
-- **cli-run** : `Run the code without building`
-- **watch-run** : `Use nodemon to watch code and run on change`
+The program returns an object with two properties of the type
 
-### Packages
+```javascript
+  {
+    match : {},
+    sortedRatios : [],
+  }
+```
 
-We are using [npm](https://github.com/npm/cli) as the default package manager. To use [Yarn](https://github.com/yarnpkg/yarn) delete [package-lock.json](package-lock.json) and run `yarn`
+- ```match``` : Calculated aspect ratio if any, exact match
+- ```sortedRatios``` : List of aspect ratios ordered by proximity to the original dimensions
 
-- [chalk](https://github.com/chalk/chalk)
-- [inquirer](https://github.com/SBoudrias/Inquirer.js)
-- [progress](https://github.com/visionmedia/node-progress)
+#### Result format
 
-Dev dependencies
+Result for both match and sortedRatios is of the following format
 
-- [ava](https://github.com/avajs/ava)
-- [babel](https://github.com/babel/babel)
-- [eslint](https://github.com/eslint/eslint)
-- [nodemon](https://github.com/remy/nodemon)
-
-## To Do
-
-- [ ] Being able to parameterise the setup
-- [ ] Options for Test framework
-- [ ] CLI setup without using the repository
+```javascript
+{
+  name: "19by16", // usable name for program literals
+  ratio: "19:16", // Common name for the aspect ratio, if any
+  proximity : "0.123", // ascending numeric valu to represent closeness to the dimensions provided
+  description: "Sometimes referred to as the Movietone ratio, this ratio was used briefly during the transitional period when the film industry was converting to sound, from 1926 to 1932 approx. It is produced by superimposing an optical soundtrack over a full-gate 1.3 aperture in printing, resulting in an almost square image. Films shot in this ratio are often projected or transferred to video incorrectly using a 1.37 mask or squashed to 1.37. Examples of films shot in the Movietone ratio include Sunrise, M, Hallelujah! and The Lighthouse."
+  // Description for the aspect ratio, usages and history.
+}
+```

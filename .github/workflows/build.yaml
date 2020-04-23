@@ -1,10 +1,9 @@
 name: Build
 
-on:
   push:
-    branches:
-      - master
-      - develop
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build:
@@ -15,30 +14,45 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-      - run: npm build
+      - run: npm run build
+      - run: npm run test
+      - name: Archive Production Artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: dist
+          path: dist
 
-  # publish-npm:
-  #   needs: build
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - uses: actions/setup-node@v1
-  #       with:
-  #         node-version: 12
-  #         registry-url: https://registry.npmjs.org/
-  #     - run: npm ci
-  #     - run: npm publish
-  #       env:
-  #         NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+  publish-npm:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download Artifact
+        uses: actions/download-artifact@v1
+        with:
+          name: dist
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - run: npm ci
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
   # publish-gpr:
   #   needs: build
   #   runs-on: ubuntu-latest
   #   steps:
   #     - uses: actions/checkout@v2
+  #     - name: Download Artifact
+  #       uses: actions/download-artifact@v1
+  #       with:
+  #         name: dist
   #     - uses: actions/setup-node@v1
   #       with:
   #         node-version: 12
   #         registry-url: https://npm.pkg.github.com/
+  #         scope: '@stubbydigits'
   #     - run: npm ci
   #     - run: npm publish
   #       env:
