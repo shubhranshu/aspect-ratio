@@ -1,11 +1,11 @@
 {
   "name": "@stubbydigits/aspect-ratio",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Calculate aspect ratios based on the dimensions x and y",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/shubhranshu/nodeJs-starter-template.git"
+    "url": "git+ssh://git@github.com/shubhranshu/aspect-ratio.git"
   },
   "author": "Shubhranshu <1248830+shubhranshu@users.noreply.github.com>",
   "license": "MIT",
@@ -39,9 +39,9 @@
     "babel": true
   },
   "bugs": {
-    "url": "https://github.com/shubhranshu/nodeJs-starter-template/issues"
+    "url": "https://github.com/shubhranshu/aspect-ratio/issues"
   },
-  "homepage": "https://github.com/shubhranshu/nodeJs-starter-template#readme",
+  "homepage": "https://github.com/shubhranshu/aspect-ratio#readme",
   "directories": {
     "test": "test"
   },
