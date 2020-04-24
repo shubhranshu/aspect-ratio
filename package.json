@@ -1,6 +1,6 @@
 {
   "name": "@stubbydigits/aspect-ratio",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Calculate aspect ratios based on the dimensions x and y",
   "main": "src/index.js",
   "repository": {
@@ -47,6 +47,10 @@
   },
   "keywords": [
     "aspect-ratio",
+    "aspect",
+    "device",
+    "ratio",
+    "screen",
     "node",
     "display",
     "fullhd",
