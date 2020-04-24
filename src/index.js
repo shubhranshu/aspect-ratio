@@ -26,9 +26,6 @@ const calculateRatio = (x, y) => {
 
   ratios.forEach((ratio) => {
     ratio.proximity = Math.abs(Math.round((ratio.numeric - calcRatio) * 100) / 100);
-    delete ratio.numeric;
-    // delete ratio.description;
-    delete ratio.alias;
   });
 
   let sortedRatios = ratios.sort((a, b) => {
