@@ -37,8 +37,8 @@ const calculateRatio = (x, y) => {
   }
 
   return {
-    match,
-    sortedRatios,
+    match: { ...match },
+    sortedRatios: [...sortedRatios],
   };
 };
 
