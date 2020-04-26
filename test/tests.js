@@ -18,5 +18,3 @@ test('test result modifications has no side effects', (t)=>{
   var rslt = calculateRatio(200, 100);
   t.assert(rslt.match.ratio === '2:1');
 })
-
-test
